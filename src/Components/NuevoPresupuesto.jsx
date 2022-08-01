@@ -31,7 +31,7 @@ const NuevoPresupuesto = ({
                 placeholder='Añade tu presupuesto'
                 value={presupuesto}
                 onChange={(evt) => setPresupuesto(
-                    evt.target.value
+                    Number(evt.target.value)
                 )}
             />
         </div>
